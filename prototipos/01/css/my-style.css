@@ -1,0 +1,11 @@
+.recuo { 
+    text-indent:4em 
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.texto-justificado{
+    text-align: justify;
+}
