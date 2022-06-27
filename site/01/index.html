@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Site Institucional Prochnow Montagens Industriais">
+    <meta name="author" content="William Tiago Velho da Silva Goebel, Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <meta name="theme-color" content="#712cf9">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <title>Prochnow - Montagens Industriais</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">   
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/footers/"> 
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="public/css/style.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="public/css/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header>
+      <div class="container-fluid">
+        <img src="public/img/Prochnow_marca_preferencial.png" width="15%" style="margin: 10px; margin-left: 10.5%; margin-top:26px;">        
+      </div>
+      <hr>
+      <nav class="navbar navbar-expand-md color-prochnow">
+        <div class="container-fluid" style="margin-left:10%;">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link color-prochnow" aria-current="page" href="#">
+                  <img src="public/img/Prochnow_simbolo_preferencial.png" style="width: 15px;">&nbsp;Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-prochnow" aria-current="page" href="#">
+                  <img src="public/img/Prochnow_simbolo_preferencial.png" style="width: 15px;">&nbsp;Serviços
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-prochnow" aria-current="page" href="#">
+                  <img src="public/img/Prochnow_simbolo_preferencial.png" style="width: 15px;">&nbsp;Portfólio
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-prochnow" aria-current="page" href="#">
+                  <img src="public/img/Prochnow_simbolo_preferencial.png" style="width: 15px;">&nbsp;Sobre
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-prochnow" aria-current="page" href="#">
+                  <img src="public/img/Prochnow_simbolo_preferencial.png" style="width: 15px;">&nbsp;Contato
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div style="background-color:#133B33;">
+              <img src="public/img/006.jpg" width="100%" style="opacity: 0.08;">
+            </div> 
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Nossa História.</h1>
+                <p>A PROCHNOW atua no mercado de prestação de serviços industriais e fabricação de equipamentos.</p>
+                <p><a class="btn btn-lg btn-primary" style="background-color: #C30D26; border-color: #C30D26;" href="#">Saber mais</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div style="background-color:#C30D26;">
+              <img src="public/img/002.jpeg" height="100%" style="opacity: 0.1;">
+            </div>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Nossos Serviços.</h1>
+                <p>Nosso corpo técnico é altamente capacitado para oferecer soluções rápidas e precisas...</p>
+                <p><a class="btn btn-lg btn-primary" style="background-color: #133B33; border-color: #133B33;" href="#">Saber mais</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div style="background-color:#133B33;">
+              <img src="public/img/003.jpeg" height="100%" style="opacity: 0.08;">
+            </div> 
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Nosso Portifólio.</h1>
+                <p>Já prestamos serviços em mais de dez estados brasileiros e em alguns países no exterior...</p>
+                <p><a class="btn btn-lg btn-primary" style="background-color: #C30D26; border-color: #C30D26;" href="#">Saber mais</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- SERVIÇOS SECTION -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="color-prochnow text-center">Nossos Serviços</h1>
+          </div>
+        </div>  
+        <div class="row">
+          <div class="col-12">
+            <div class="album py-5">
+              <div class="container">          
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                  
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="public/img/001.jpg"class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <div class="card-body">
+                        <h6 class="color-prochnow"><img src="public/img/Prochnow_simbolo_preferencial.png" style="width: 15px;">&nbsp;Fabricação</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a class="btn btn-sm btn-primary" style="background-color: #133B33; border-color: #133B33;" href="#">Saber mais</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="public/img/002.jpeg"class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <div class="card-body">
+                        <h6 class="color-prochnow"><img src="public/img/Prochnow_simbolo_preferencial.png" style="width: 15px;">&nbsp;Montagem</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a class="btn btn-sm btn-primary" style="background-color: #133B33; border-color: #133B33;" href="#">Saber mais</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="public/img/003.jpeg"class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <div class="card-body">
+                        <h6 class="color-prochnow"><img src="public/img/Prochnow_simbolo_preferencial.png" style="width: 15px;">&nbsp;Manutenção</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a class="btn btn-sm btn-primary" style="background-color: #133B33; border-color: #133B33;" href="#">Saber mais</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="public/img/008.png"class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <div class="card-body">
+                        <h6 class="color-prochnow"><img src="public/img/Prochnow_simbolo_preferencial.png" style="width: 15px;">&nbsp;Locação</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a class="btn btn-sm btn-primary" style="background-color: #133B33; border-color: #133B33;" href="#">Saber mais</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="public/img/007.png"class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <div class="card-body">
+                        <h6 class="color-prochnow"><img src="public/img/Prochnow_simbolo_preferencial.png" style="width: 15px;">&nbsp;Construção Civil</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a class="btn btn-sm btn-primary" style="background-color: #133B33; border-color: #133B33;" href="#">Saber mais</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="public/img/006.jpg"class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <div class="card-body">
+                        <h6 class="color-prochnow"><img src="public/img/Prochnow_simbolo_preferencial.png" style="width: 15px;">&nbsp;Solda</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a class="btn btn-sm btn-primary" style="background-color: #133B33; border-color: #133B33;" href="#">Saber mais</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <!-- CONTCT FORM -->
+      <div class="position-relative color-white" style="padding-top: 30px; padding-bottom: 30px; background-color:#133B33;">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div style="text-align: center;">
+                <h3>Entre em contato conosco!</h3>
+                <p>Nos envie um menssagem através do nosso formulário de contato!</p>
+              </div>
+            </div>
+          </div>
+          <div class="row form">
+            <div class="col-6">
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <button type="submit" class="btn btn-primary" style="background-color: #C30D26; border-color: #C30D26;">Enviar</button>
+            </div>
+            <div class="col-6">
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Menssagem</label>
+                <textarea class="form-control" id="w3review" name="w3review" rows="5" cols="5"></textarea>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- MAP -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28336.71699352938!2d-49.84892912377433!3d-27.404133257043874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dfe8302092bc6f%3A0x761410244443112a!2sAgrol%C3%A2ndia%2C%20SC%2C%2088420-000!5e0!3m2!1spt-BR!2sbr!4v1647724479772!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0; margin-bottom: 20px;" allowfullscreen="" loading="lazy"></iframe>
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 color-prochnow">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 color-prochnow">Serviços</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 color-prochnow">Portifólio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 color-prochnow">Sobre</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 color-prochnow">Contato</a></li>
+        </ul>
+        <div class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4">
+          <p>&copy; 2007–2022 Prochnow, LTDA. Todos os direitos reservados &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="color-prochnow" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></a></li>
+            <li class="ms-3"><a class="color-prochnow" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a></li>
+            <li class="ms-3"><a class="color-prochnow" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>      
+  </body>
+</html>
